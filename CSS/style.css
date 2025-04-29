@@ -178,10 +178,12 @@ body {
 .responsive {
     width: 100%;
     height: auto;
-    border-top-left-radius: 251px;
-    border-top-right-radius: 251px;
-    border-bottom-left-radius: 251px;
-    border-bottom-right-radius: 251px;
+    max-width: 492px;
+    max-height: 600px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
     border: #0ef 5px solid;
 }
 
@@ -214,7 +216,7 @@ body {
     width: 100%;
     height: auto;
     max-width: 492px;
-    max-height: 492px;
+    max-height: 600px;
     border-radius: 90px;
     /*box-shadow: 0 0 5pc cyan, 0 0 5px cyan, 0 0 10px cyan;*/
     border: #0ef 5px solid;
